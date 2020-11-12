@@ -87,3 +87,42 @@ section{
     width: 100%;
 }
 
+/* Counter Animation */
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter-container{
+    text-align: center;
+}
+
+.count{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+
+.count-detail{
+    font-size: 25px;
+    white-space: nowrap;
+    color: rgb(202, 175, 23);
+}
+
+/*-----------FOOTER -----------*/
+
+footer {
+    background: rgb(202, 175, 23);
+    height: 2rem;
+    color: white;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  
+  
